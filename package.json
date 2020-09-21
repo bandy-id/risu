@@ -2,9 +2,11 @@
   "name": "risu",
   "version": "1.0.0",
   "description": "Common project scaffolding used by Bandy",
-  "main": "index.js",
+  "main": "dist/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/app.ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
